@@ -67,7 +67,7 @@ streamlit>=1.12.0
 ## 必需参数 (Mandatory Arguments)
 
 1. **auth_token**：  
-   从 [Courier](https://www.courier.com/email-api/) 获取的唯一授权令牌。
+   从 [Courier](https://www.courier.com/email-api/) 
 
 2. **company_name**：  
    发送密码重置邮件的个人或组织的名称。
