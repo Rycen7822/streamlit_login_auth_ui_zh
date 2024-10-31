@@ -116,7 +116,13 @@ from streamlit_login_auth_ui_zh.widgets import __login__
     if user_logged_in:
         st.success("用户已成功登录!")
     else:
-        st.warning("请登录以继续.")
+       st.warning("请登录以继续.")
+    
+    def main():
+       # your app
+       
+    if user_logged_in == True:
+       main()
 
 # 注意事项
   
