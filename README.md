@@ -43,12 +43,12 @@ streamlit>=1.12.0
 ## 下载库
 
 ```python
-#pip install streamlit_login_auth_ui_zh
+pip install streamlit_login_auth_ui_zh
 ```
 
 要导入该库，只需在代码开头粘贴以下内容：
 ```python
-#from streamlit_login_auth_ui_zh.widgets import __login__
+from streamlit_login_auth_ui_zh.widgets import __login__
 ```
 
 您需要做的就是为 ```__login__``` 类创建一个对象，并传入以下参数：
