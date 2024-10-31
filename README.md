@@ -2,7 +2,7 @@
 python3.10 -m venv venv source venv/bin/activate python3.10 -m pip install -r requirement.txt
 
 # 介绍
-这个库是一个用户友好的 Streamlit 登录/注册系统，基于[streamlit_login_auth_ui]库改写构建，
+这个库是一个用户友好的 Streamlit 登录/注册系统，基于[streamlit_login_auth_ui](https://github.com/GauriSP10/streamlit_login_auth_ui)库改写构建，
 文本改为了中文版，同时兼容更高版本的streamlit。
 它为开发者提供了一种简单的方法，以便在其 Streamlit 应用程序中实现安全的用户身份注册和验证。
 ## streamlit版本需求
