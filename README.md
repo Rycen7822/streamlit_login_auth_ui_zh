@@ -102,7 +102,7 @@ from streamlit_login_auth_ui_zh.widgets import __login__
 ## 示例代码
     # 引入需要的库和模块
     import streamlit as st
-    from U2 import __login__
+    from streamlit_login_auth_ui_zh.widgets import __login__
     
     # 创建 __login__ 类的对象
     login_ui = __login__(
