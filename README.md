@@ -1,9 +1,6 @@
-# 下载所有的所需要的库(HOW TO INSTALL ALL LIBRARIES):
-python3.10 -m venv venv source venv/bin/activate python3.10 -m pip install -r requirement.txt
-
 # 介绍
-这个库是一个用户友好的 Streamlit 登录/注册系统，基于[streamlit_login_auth_ui](https://github.com/GauriSP10/streamlit_login_auth_ui)库改写构建，
-文本改为了中文版，同时兼容更高版本的streamlit。
+这个插件是一个用户友好的 Streamlit 登录/注册系统，基于[streamlit_login_auth_ui](https://github.com/GauriSP10/streamlit_login_auth_ui)库改写构建，
+文本修改为了中文版，同时支持兼容更高版本的streamlit，修复了部分Bug。
 它为开发者提供了一种简单的方法，以便在其 Streamlit 应用程序中实现安全的用户身份注册和验证。
 ## streamlit版本需求
 streamlit>=1.12.0
@@ -25,7 +22,7 @@ streamlit>=1.12.0
 
 1. **依赖项安装**：确保在使用之前安装了相关依赖项，包括 `streamlit`, `argon2-cffi`, `trycourier` 等。
 
-2. **初始化和配置**：创建 `__login__` 类的实例时，传入必要的参数，如认证令牌和公司名称。
+2. **初始化和配置**：创建 `__login__` 类的实例时，传入必要的参数，如认证token和公司名称。
 
 3. **界面集成**：使用 `build_login_ui()` 方法整合所有功能，构建完整的用户界面。
 
@@ -35,7 +32,7 @@ streamlit>=1.12.0
 
 ## PyPi链接：
 
-
+( https://pypi.org/project/streamlit-login-auth-ui-zh/0.1.0/)
 ## The UI:
 [The UI](https://github.com/user-attachments/assets/d430963f-9148-4999-a2e3-772ba52f5561)
 
@@ -51,9 +48,9 @@ pip install streamlit_login_auth_ui_zh
 from streamlit_login_auth_ui_zh.widgets import __login__
 ```
 
-您需要做的就是为 ```__login__``` 类创建一个对象，并传入以下参数：
+您只需要为 ```__login__``` 类创建一个对象，并传入以下参数：
 ### 主要参数说明：
-1. **auth_token**：从 [Courier](https://www.courier.com/email-api/) 获取的唯一授权令牌，用于安全地发送电子邮件。
+1. **auth_token**：从 [Courier](https://www.courier.com/email-api/) 获取的唯一授权token，用于安全地发送电子邮件。
 2. **company_name**：发送密码重置邮件的个人或组织的名称，例如 "Shims"。
 3. **width**：登录页面上动画的宽度，单位为像素（例如 200 像素）。
 4. **height**：登录页面上动画的高度，单位为像素（例如 250 像素）。
@@ -67,7 +64,7 @@ from streamlit_login_auth_ui_zh.widgets import __login__
 ## 必需参数 (Mandatory Arguments)
 
 1. **auth_token**：  
-   从 [Courier](https://www.courier.com/email-api/) 获取的令牌
+   从 [Courier](https://www.courier.com/email-api/) 获取的token
 
 2. **company_name**：  
    发送密码重置邮件的个人或组织的名称。
@@ -122,8 +119,7 @@ from streamlit_login_auth_ui_zh.widgets import __login__
         st.warning("请登录以继续.")
 
 # 注意事项
-
-就是这样！这个库会处理其余的功能。  
+  
 请确保将你的应用程序逻辑缩进在 `if st.session_state['LOGGED_IN'] == True:` 语句下，这样可以保证只有在用户安全登录后，应用程序才会运行。
 ## 说明
 
