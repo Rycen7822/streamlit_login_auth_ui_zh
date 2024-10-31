@@ -31,7 +31,7 @@ streamlit>=1.12.0
 
 
 ## 作者:
-[GauriSP10](kristinharrison7826@gmail.com)
+[llm-project](kristinharrison7826@gmail.com)
 
 ## PyPi链接：
 
