@@ -1,6 +1,3 @@
-# 下载所有的所需要的库(HOW TO INSTALL ALL LIBRARIES):
-python3.10 -m venv venv source venv/bin/activate python3.10 -m pip install -r requirement.txt
-
 # 介绍
 这个插件是一个用户友好的 Streamlit 登录/注册系统，基于[streamlit_login_auth_ui](https://github.com/GauriSP10/streamlit_login_auth_ui)库改写构建，
 文本修改为了中文版，同时支持兼容更高版本的streamlit，修复了部分Bug。
