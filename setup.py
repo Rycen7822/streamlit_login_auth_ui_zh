@@ -5,7 +5,7 @@ setup(
     packages=find_packages(),  # 自动查找包含的包
     install_requires=[
     ],  # 依赖库
-    author='llm-project',
+    author='Rycen7822',
     author_email='kristinharrison7826@gmail.com',
     description='这个库是一个用户友好的 Streamlit 登录/注册系统，基于streamlit_login_auth_ui 库改写构建。 它为开发者提供了一种简单的方法，以便在其 Streamlit 应用程序中实现安全的用户身份注册和验证。',  # 描述
     long_description=open('README.md').read(),
