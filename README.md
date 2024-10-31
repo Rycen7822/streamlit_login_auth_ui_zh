@@ -119,7 +119,7 @@ from streamlit_login_auth_ui_zh.widgets import __login__
        st.warning("请登录以继续.")
     
     def main():
-       # your app
+       # your streamlit app
        
     if user_logged_in == True:
        main()
