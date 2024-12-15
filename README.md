@@ -31,7 +31,7 @@ streamlit>=1.12.0
 [Rycen7822](kristinharrison7826@gmail.com)
 
 ## PyPi链接：
-( https://pypi.org/project/streamlit-login-auth-ui-zh/0.1.0/)
+https://pypi.org/project/streamlit-login-auth-ui-zh/
 ## github:
 https://github.com/Rycen7822/streamlit_login_auth_ui_zh/tree/main
 ## The UI:
