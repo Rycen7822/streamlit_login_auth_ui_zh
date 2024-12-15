@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='streamlit_login_auth_ui_zh',  # 替换为你的包名
-    version='0.1.0',  # 版本号
+    version='0.1.3',  # 版本号
     packages=find_packages(),  # 自动查找包含的包
     install_requires=[
     ],  # 依赖库
