@@ -5,18 +5,18 @@ import os
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
-from utils import check_usr_pass
-from utils import load_lottieurl
-from utils import check_valid_name
-from utils import check_valid_email
-from utils import check_unique_email
-from utils import check_unique_usr
-from utils import register_new_usr
-from utils import check_email_exists
-from utils import generate_random_passwd
-from utils import send_passwd_in_email
-from utils import change_passwd
-from utils import check_current_passwd
+from .utils import check_usr_pass
+from .utils import load_lottieurl
+from .utils import check_valid_name
+from .utils import check_valid_email
+from .utils import check_unique_email
+from .utils import check_unique_usr
+from .utils import register_new_usr
+from .utils import check_email_exists
+from .utils import generate_random_passwd
+from .utils import send_passwd_in_email
+from .utils import change_passwd
+from .utils import check_current_passwd
 
 
 class __login__:
